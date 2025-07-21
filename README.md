@@ -44,7 +44,7 @@ Instalasi :
 
 Kontributor
 
-- Ramadhony Firman Syahputra (2357201011001)
+- Ramadhony Firman Syahputra (23572011001)
   
 Lisensi
 Proyek ini dilisensikan di bawah MIT License.
