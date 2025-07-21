@@ -21,11 +21,11 @@ Fitur Utama :
 
 Metodologi
 Proyek ini dikembangkan menggunakan pendekatan Design Thinking yang terdiri dari tahapan:
-1.) Empathize: Mengumpulkan data melalui wawancara dan observasi untuk memahami kebutuhan pengguna (pembeli dan agen properti).
-2.) Define: Merumuskan permasalahan berdasarkan persona pengguna seperti Almahfudz (pembeli) dan Edy (marketing).
-3.) Ideate: Menghasilkan solusi kreatif untuk desain UI/UX.
-4.) Prototype: Membuat wireframe dan mockup menggunakan Balsamiq dan Figma.
-5.) Test: Melakukan pengujian usability untuk memastikan pengalaman pengguna optimal.
+1. Empathize: Mengumpulkan data melalui wawancara dan observasi untuk memahami kebutuhan pengguna (pembeli dan agen properti).
+2. Define: Merumuskan permasalahan berdasarkan persona pengguna seperti Almahfudz (pembeli) dan Edy (marketing).
+3. Ideate: Menghasilkan solusi kreatif untuk desain UI/UX.
+4. Prototype: Membuat wireframe dan mockup menggunakan Balsamiq dan Figma.
+5. Test: Melakukan pengujian usability untuk memastikan pengalaman pengguna optimal.
 
 Struktur Direktori : 
 - app/: Berisi logika aplikasi utama.
