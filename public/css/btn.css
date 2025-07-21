@@ -1,0 +1,61 @@
+
+    .elcapo-text-brown {
+        color: #4E2E1D;
+        font-weight: 600;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #D8AE7E;
+    }
+    
+    .elcapo-card {
+        border: 1px solid #D8AE7E;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(78, 46, 29, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .elcapo-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(78, 46, 29, 0.2);
+    }
+    
+    .header-title {
+        position: relative;
+        z-index: 1;
+        padding: 0 120px; /* Ruang untuk tombol di kanan */
+    }
+
+    .btn-back {
+        background: linear-gradient(145deg, #D8AE7E, #C99A6D);
+        color: #4E2E1D;
+        border: 2px solid #4E2E1D;
+        border-radius: 30px;
+        padding: 8px 20px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(78, 46, 29, 0.1);
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-back {
+        background: linear-gradient(145deg, #D8AE7E, #C99A6D);
+        color: #4E2E1D;
+        border: 2px solid #4E2E1D;
+        border-radius: 30px;
+        padding: 8px 20px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(78, 46, 29, 0.1);
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn-back:hover {
+        background: linear-gradient(145deg, #4E2E1D, #3A2315);
+        color: #fff;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(78, 46, 29, 0.2);
+        text-decoration: none;
+    }
+    

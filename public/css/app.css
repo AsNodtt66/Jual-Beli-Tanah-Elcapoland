@@ -1,0 +1,148 @@
+/* Variabel Warna Global */
+:root {
+    --theme-bg: #c49a6c;
+    --theme-container: #d9b999;
+    --theme-dark-brown: #3b2a1a;
+    --theme-white: #ffffff;
+    --theme-muted-text: #5a442a;
+    --theme-primary: #3b2a1a;
+    --theme-secondary: #d9b999;
+    --theme-light: #f8f5f0;
+    --theme-accent: #a67c00;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--theme-bg) 0%, var(--theme-container) 100%);
+    padding: 100px 0;
+    color: rgb(194, 127, 55);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image-main {
+    border-radius: 20px;
+    overflow: hidden;
+    transform: perspective(1000px) rotateY(-5deg) rotateX(5deg);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border: 8px solid rgba(255, 255, 255, 0.2);
+}
+
+.wave-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.wave-divider .shape-fill {
+    fill: var(--theme-light);
+}
+
+/* Search Section */
+.search-section {
+    padding: 80px 0 60px;
+}
+
+/* Featured Lands */
+.land-card {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.land-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Stats Section */
+.stats-section {
+    background: var(--theme-dark-brown);
+    color: white;
+    padding: 80px 0;
+}
+
+/* How it works */
+.icon-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 25px;
+}
+
+.icon-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Testimonials */
+.testimonial-card {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+}
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .display-3 {
+        font-size: 2.5rem;
+    }
+    
+    .icon-wrapper {
+        width: 80px;
+        height: 80px;
+    }
+}

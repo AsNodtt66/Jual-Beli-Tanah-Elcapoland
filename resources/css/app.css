@@ -1,0 +1,81 @@
+/*
+ * Variabel Warna Global Baru untuk Elcapo Land
+ * Berdasarkan tema dari screenshot.
+*/
+:root {
+    --theme-bg: #c49a6c;
+    --theme-container: #d9b999;
+    --theme-dark-brown: #3b2a1a;
+    --theme-white: #ffffff;
+    --theme-muted-text: #5a442a;
+}
+
+/* Gaya Dasar Body */
+body {
+    background-color: var(--theme-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--theme-dark-brown);
+}
+
+/* Gaya Navbar */
+.elcapo-navbar {
+    background: var(--theme-dark-brown) !important;
+}
+.elcapo-navbar .navbar-brand,
+.elcapo-navbar .nav-link {
+    color: var(--theme-white) !important;
+}
+.elcapo-navbar .navbar-brand:hover,
+.elcapo-navbar .nav-link:hover {
+    color: var(--theme-container) !important; /* Warna hover yang lebih terang */
+}
+
+/* Gaya Tombol Elcapo */
+.elcapo-btn {
+    background-color: var(--theme-dark-brown);
+    color: var(--theme-white);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.elcapo-btn:hover {
+    background-color: var(--theme-muted-text);
+    color: var(--theme-white);
+}
+
+/* Gaya Card */
+.elcapo-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--theme-white); /* Latar belakang kartu putih agar mudah dibaca */
+}
+.elcapo-card-header {
+    background-color: var(--theme-container);
+    color: var(--theme-dark-brown);
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+}
+
+/* Hero Section (Tambahan untuk welcome page jika digunakan) */
+.hero-section {
+    background-color: var(--theme-bg);
+    padding: 80px 0;
+    text-align: center;
+}
+.hero-section h1 {
+    color: var(--theme-dark-brown);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero-section p {
+    color: var(--theme-dark-brown);
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
