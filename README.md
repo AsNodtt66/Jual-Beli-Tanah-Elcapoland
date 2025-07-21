@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -21,11 +20,11 @@ Fitur Utama :
 
 Metodologi
 Proyek ini dikembangkan menggunakan pendekatan Design Thinking yang terdiri dari tahapan:
-1. Empathize: Mengumpulkan data melalui wawancara dan observasi untuk memahami kebutuhan pengguna (pembeli dan agen properti).
-2. Define: Merumuskan permasalahan berdasarkan persona pengguna seperti Almahfudz (pembeli) dan Edy (marketing).
-3. Ideate: Menghasilkan solusi kreatif untuk desain UI/UX.
-4. Prototype: Membuat wireframe dan mockup menggunakan Balsamiq dan Figma.
-5. Test: Melakukan pengujian usability untuk memastikan pengalaman pengguna optimal.
+- Empathize: Mengumpulkan data melalui wawancara dan observasi untuk memahami kebutuhan pengguna (pembeli dan agen properti).
+- Define: Merumuskan permasalahan berdasarkan persona pengguna seperti Almahfudz (pembeli) dan Edy (marketing).
+- Ideate: Menghasilkan solusi kreatif untuk desain UI/UX.
+- Prototype: Membuat wireframe dan mockup menggunakan Balsamiq dan Figma.
+- Test: Melakukan pengujian usability untuk memastikan pengalaman pengguna optimal.
 
 Struktur Direktori : 
 - app/: Berisi logika aplikasi utama.
