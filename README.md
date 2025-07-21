@@ -7,18 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-El Capo Land - Aplikasi Jual Beli Tanah Berbasis Web
-Deskripsi Proyek
+## El Capo Land - Aplikasi Jual Beli Tanah Berbasis Web
+# Deskripsi Proyek
 El Capo Land adalah platform e-commerce berbasis web yang dirancang untuk memfasilitasi transaksi jual beli tanah secara digital. Proyek ini bertujuan menyediakan solusi modern, transparan, dan efisien untuk mengatasi tantangan dalam proses jual beli tanah di Indonesia, seperti kurangnya informasi akurat, kompleksitas verifikasi legalitas, dan efisiensi pemasaran properti.
 
-Fitur Utama : 
+## Fitur Utama : 
 1. Pencarian Tanah: Filter berdasarkan lokasi, harga, dan kategori untuk mempermudah pengguna menemukan tanah yang sesuai.
 2. Verifikasi Legalitas: Fitur verifikasi dokumen tanah oleh admin untuk memastikan keabsahan transaksi.
 3. Manajemen Pengguna: Admin dapat mengelola data pembeli, penjual, dan listing tanah.
 4. Interaksi Pengguna: Fitur chat untuk negosiasi langsung antara pembeli dan penjual.
 5. Dashboard Khusus: Tampilan dashboard terpisah untuk pembeli, penjual, dan admin dengan fungsi yang sesuai peran.
 
-Metodologi
+## Metodologi
 Proyek ini dikembangkan menggunakan pendekatan Design Thinking yang terdiri dari tahapan:
 - Empathize: Mengumpulkan data melalui wawancara dan observasi untuk memahami kebutuhan pengguna (pembeli dan agen properti).
 - Define: Merumuskan permasalahan berdasarkan persona pengguna seperti Almahfudz (pembeli) dan Edy (marketing).
@@ -26,7 +26,7 @@ Proyek ini dikembangkan menggunakan pendekatan Design Thinking yang terdiri dari
 - Prototype: Membuat wireframe dan mockup menggunakan Balsamiq dan Figma.
 - Test: Melakukan pengujian usability untuk memastikan pengalaman pengguna optimal.
 
-Struktur Direktori : 
+## Struktur Direktori : 
 - app/: Berisi logika aplikasi utama.
 - config/: Konfigurasi sistem.
 - database/: Skema dan migrasi database.
@@ -34,7 +34,7 @@ Struktur Direktori :
 - resources/views/: Template tampilan frontend.
 - storage/: Data sementara seperti dokumen unggahan.
 
-Instalasi : 
+## Instalasi : 
 1. Clone repositori ini: git clone <repository-url>.
 2. Masuk ke direktori proyek: cd el-capo-land.
 3. Instal dependensi: composer install.
@@ -42,14 +42,13 @@ Instalasi :
 5. Jalankan migrasi database: php artisan migrate.
 6. Mulai server lokal: php artisan serve.
 
-Kontributor
-
+## Kontributor
 - Ramadhony Firman Syahputra (23572011001)
   
-Lisensi
+## Lisensi
 Proyek ini dilisensikan di bawah MIT License.
 
-Kontak
+## Kontak
 Untuk pertanyaan atau saran, silakan hubungi tim pengembang melalui email yang tertera di profil GitHub kontributor.
 Pengembangan Selanjutnya
 
@@ -108,6 +107,6 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
-# boku-no-porto
-programmer newbie
+# Jual-Beli-Tanah-Elcapoland
+Project Kuliah Web Jual beli Tanah
 >>>>>>> 80ee9d9c2f9185591290f287bca605a72c9b23bd
