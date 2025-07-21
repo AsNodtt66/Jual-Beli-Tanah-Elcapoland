@@ -7,8 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## El Capo Land - Aplikasi Jual Beli Tanah Berbasis Web
-# Deskripsi Proyek
+# El Capo Land - Aplikasi Jual Beli Tanah Berbasis Web
+## Deskripsi Proyek
 El Capo Land adalah platform e-commerce berbasis web yang dirancang untuk memfasilitasi transaksi jual beli tanah secara digital. Proyek ini bertujuan menyediakan solusi modern, transparan, dan efisien untuk mengatasi tantangan dalam proses jual beli tanah di Indonesia, seperti kurangnya informasi akurat, kompleksitas verifikasi legalitas, dan efisiensi pemasaran properti.
 
 ## Fitur Utama : 
